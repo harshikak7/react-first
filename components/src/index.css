@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: #fff;
+}
+
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background-color: #202020;
+}
+
+.card{
+background-color:cadetblue;
+border-radius: 10px;
+margin: 40px;
+padding: 20px;
+}
