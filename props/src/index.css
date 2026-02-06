@@ -1,0 +1,53 @@
+/* Box-sizing reset: Ensures padding and borders are included in an element's total width and height */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  height: 100vh; /* Ensures the body spans the full height of the browser window */
+  width: 100vw;  /* Ensures the body spans the full width of the browser window */
+  background-color: #202020;
+  color: #fff;
+}
+
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color:cornflowerblue;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.card p{
+  padding: 10px 20px;
+  line-height: 1.5rem;
+  width: auto;
+  margin: 4px;
+}
+.card button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.card button:hover{
+  background-color:#b6dbff;
+  color: rgb(58, 58, 58);
+  cursor: pointer;
+}
